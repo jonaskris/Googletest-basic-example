@@ -5,10 +5,10 @@ Contained in the project is an example class with separated header and implement
 ## Cloning
 Cloning a repository with submodules is done by adding the argument --recurse-submodules.
 
-    git clone --recurse-submodules https://github.com/jonaskris/Testing-with-CMake-and-googletest.git
-
+    git clone --recurse-submodules https://github.com/jonaskris/Googletest-basic-example.git
 
 ## Building
+    cd Googletest-basic-example
     mkdir build
     cd build
     cmake ..
@@ -19,5 +19,3 @@ The project must be built before running tests.
 
 ### To run all tests
     make test
-    
-### 
